@@ -61,12 +61,12 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:5000/connect/token",
-					"protocol": "http",
+					"raw": "https://identity.kasten.pw/connect/token",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"identity.kasten.pw"
 					],
-					"port": "5000",
+					"port": "",
 					"path": [
 						"connect",
 						"token"
@@ -95,12 +95,12 @@
 				],
 				"body": {},
 				"url": {
-					"raw": "http://localhost:5000/claims/ensure/phone_number",
-					"protocol": "http",
+					"raw": "https://identity.kasten.pw/claims/ensure/phone_number",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"identity.kasten.pw"
 					],
-					"port": "5000",
+					"port": "",
 					"path": [
 						"claims",
 						"ensure",

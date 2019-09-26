@@ -3,9 +3,9 @@
  */
 
 var ENV = {
-        ApiUrl: 'http://localhost:5000',
-        UiUrl: 'http://localhost:5000',
-        AuthorityUrl: 'http://localhost:5000',
+        ApiUrl: 'https://identity.kasten.pw',
+        UiUrl: 'https://identity.kasten.pw',
+        AuthorityUrl: 'https://identity.kasten.pw',
         AddUserPassword: true,
         CommunityEdition:true
 };

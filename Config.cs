@@ -51,9 +51,9 @@ namespace IdentityServer
                     AllowedGrantTypes = GrantTypes.HybridAndClientCredentials,
                     ClientSecrets = { new Secret("49C1A7E1-0C79-4A89-A3D6-A37998FB86B0".Sha256()) },
 
-                    RedirectUris = { "http://localhost:5001/signin-oidc" },
-                    FrontChannelLogoutUri = "http://localhost:5001/signout-oidc",
-                    PostLogoutRedirectUris = { "http://localhost:5001/signout-callback-oidc" },
+                    RedirectUris = { "https://identity.kasten.pw/signin-oidc" },
+                    FrontChannelLogoutUri = "https://identity.kasten.pw/signout-oidc",
+                    PostLogoutRedirectUris = { "https://identity.kasten.pw/signout-callback-oidc" },
 
                     AllowOfflineAccess = true,
                     AllowedScopes = { "openid", "profile", "api1" }
@@ -71,14 +71,14 @@ namespace IdentityServer
 
                     RedirectUris =
                     {
-                        "http://localhost:5002/index.html",
-                        "http://localhost:5002/callback.html",
-                        "http://localhost:5002/silent.html",
-                        "http://localhost:5002/popup.html",
+                        "https://identity.kasten.pw/index.html",
+                        "https://identity.kasten.pw/callback.html",
+                        "https://identity.kasten.pw/silent.html",
+                        "https://identity.kasten.pw/popup.html",
                     },
 
-                    PostLogoutRedirectUris = { "http://localhost:5002/index.html" },
-                    AllowedCorsOrigins = { "http://localhost:5002" },
+                    PostLogoutRedirectUris = { "https://identity.kasten.pw/index.html" },
+                    AllowedCorsOrigins = { "https://identity.kasten.pw" },
 
                     AllowedScopes = { "openid", "profile", "api1" }
                 }

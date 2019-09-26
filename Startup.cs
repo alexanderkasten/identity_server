@@ -140,7 +140,7 @@ namespace IdentityServer
                 app.UseExceptionHandler("/Home/Error");
             }
             app.UseCors(builder =>
-                builder.WithOrigins("http://localhost:9000", "http://localhost:17290")
+                builder.WithOrigins("http://localhost:9000", "http://localhost:17290", "https://bpmn.kasten.pw")
                        .AllowAnyHeader()
                        .AllowAnyMethod()
                        .AllowCredentials()
